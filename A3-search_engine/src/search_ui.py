@@ -1,5 +1,5 @@
 from flask import Flask,request,render_template
-from IndexSearchM4 import IndexSearch
+from indexer import IndexSearch
 app=Flask(__name__)
 
 @app.route('/')
