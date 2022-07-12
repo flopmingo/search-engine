@@ -4,6 +4,7 @@ Search engine is built for users to search for webpages in the ICS domain (http:
 
 ### How to Run Search Engine
 * Unzip DEV folder
+* Run "pip install nltk", "pip install bs4", "pip install lxml", "pip install flask"
 * Run indexer.py to create inverted index for corpus (DEV directory) stored as files in the file system
 * Run searcher.py to use search engine in console
 * Run search_ui.py and copy and paste link in console to run web interface 
