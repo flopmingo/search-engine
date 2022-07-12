@@ -2,6 +2,7 @@ import os
 import re
 import json
 import nltk
+nltk.download('punkt')
 from bs4 import BeautifulSoup
 import lxml
 from nltk.stem.snowball import EnglishStemmer
